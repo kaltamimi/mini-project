@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F110CDCA25619C2C00838D45 /* SKActivityIndicatorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F110CDC625619C2C00838D45 /* SKActivityIndicatorGenerator.swift */; };
+		F110CDCB25619C2C00838D45 /* SKPreloadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F110CDC725619C2C00838D45 /* SKPreloadingView.swift */; };
+		F110CDCC25619C2C00838D45 /* SKRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F110CDC825619C2C00838D45 /* SKRefreshControl.swift */; };
+		F110CDCD25619C2C00838D45 /* SKActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F110CDC925619C2C00838D45 /* SKActivityIndicator.swift */; };
 		F1A69309C800F7205412D18E /* libPods-mini project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A174C9600AD36622D87C57C /* libPods-mini project.a */; };
 		F1E613CE255AAC7700DA07E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E613CD255AAC7700DA07E8 /* AppDelegate.swift */; };
 		F1E613D0255AAC7700DA07E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E613CF255AAC7700DA07E8 /* SceneDelegate.swift */; };
@@ -27,10 +31,6 @@
 		F1E6140C255C1EE600DA07E8 /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E6140B255C1EE500DA07E8 /* LocalService.swift */; };
 		F1E6140F255C23B300DA07E8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F1E6140E255C23B300DA07E8 /* RealmSwift */; };
 		F1E61411255C23B300DA07E8 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F1E61410255C23B300DA07E8 /* Realm */; };
-		F1E61417255C656F00DA07E8 /* SKActivityIndicatorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E61413255C656F00DA07E8 /* SKActivityIndicatorGenerator.swift */; };
-		F1E61418255C656F00DA07E8 /* SKPreloadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E61414255C656F00DA07E8 /* SKPreloadingView.swift */; };
-		F1E61419255C656F00DA07E8 /* SKRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E61415255C656F00DA07E8 /* SKRefreshControl.swift */; };
-		F1E6141A255C656F00DA07E8 /* SKActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E61416255C656F00DA07E8 /* SKActivityIndicator.swift */; };
 		F1E6141C255D3DAA00DA07E8 /* BasePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E6141B255D3DAA00DA07E8 /* BasePostCell.swift */; };
 		F1E61421255D3F1D00DA07E8 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E6141F255D3F1D00DA07E8 /* PostImageCell.swift */; };
 		F1E61422255D3F1D00DA07E8 /* PostImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1E61420255D3F1D00DA07E8 /* PostImageCell.xib */; };
@@ -47,6 +47,10 @@
 		11A9E8683B68809337BC1156 /* Pods-mini project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mini project.release.xcconfig"; path = "Target Support Files/Pods-mini project/Pods-mini project.release.xcconfig"; sourceTree = "<group>"; };
 		9A174C9600AD36622D87C57C /* libPods-mini project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mini project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3EB59F9F8C57DC3299E9A9 /* Pods-mini project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mini project.debug.xcconfig"; path = "Target Support Files/Pods-mini project/Pods-mini project.debug.xcconfig"; sourceTree = "<group>"; };
+		F110CDC625619C2C00838D45 /* SKActivityIndicatorGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKActivityIndicatorGenerator.swift; sourceTree = "<group>"; };
+		F110CDC725619C2C00838D45 /* SKPreloadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPreloadingView.swift; sourceTree = "<group>"; };
+		F110CDC825619C2C00838D45 /* SKRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRefreshControl.swift; sourceTree = "<group>"; };
+		F110CDC925619C2C00838D45 /* SKActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKActivityIndicator.swift; sourceTree = "<group>"; };
 		F1E613CA255AAC7700DA07E8 /* mini project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mini project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E613CD255AAC7700DA07E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1E613CF255AAC7700DA07E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,10 +70,6 @@
 		F1E61403255B0D5600DA07E8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F1E61405255B0E7700DA07E8 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		F1E6140B255C1EE500DA07E8 /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
-		F1E61413255C656F00DA07E8 /* SKActivityIndicatorGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKActivityIndicatorGenerator.swift; sourceTree = "<group>"; };
-		F1E61414255C656F00DA07E8 /* SKPreloadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPreloadingView.swift; sourceTree = "<group>"; };
-		F1E61415255C656F00DA07E8 /* SKRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRefreshControl.swift; sourceTree = "<group>"; };
-		F1E61416255C656F00DA07E8 /* SKActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKActivityIndicator.swift; sourceTree = "<group>"; };
 		F1E6141B255D3DAA00DA07E8 /* BasePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePostCell.swift; sourceTree = "<group>"; };
 		F1E6141F255D3F1D00DA07E8 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		F1E61420255D3F1D00DA07E8 /* PostImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostImageCell.xib; sourceTree = "<group>"; };
@@ -112,6 +112,17 @@
 				9A174C9600AD36622D87C57C /* libPods-mini project.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F110CDC525619C2C00838D45 /* LoaderView */ = {
+			isa = PBXGroup;
+			children = (
+				F110CDC625619C2C00838D45 /* SKActivityIndicatorGenerator.swift */,
+				F110CDC725619C2C00838D45 /* SKPreloadingView.swift */,
+				F110CDC825619C2C00838D45 /* SKRefreshControl.swift */,
+				F110CDC925619C2C00838D45 /* SKActivityIndicator.swift */,
+			);
+			path = LoaderView;
 			sourceTree = "<group>";
 		};
 		F1E613C1255AAC7700DA07E8 = {
@@ -158,8 +169,8 @@
 		F1E613ED255AB02E00DA07E8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F110CDC525619C2C00838D45 /* LoaderView */,
 				F1E613DE255AAC7800DA07E8 /* Info.plist */,
-				F1E61412255C656F00DA07E8 /* LoaderView */,
 				F1E613E8255AACA700DA07E8 /* Localizable.strings */,
 				F1E61403255B0D5600DA07E8 /* Colors.xcassets */,
 				F1E613D9255AAC7800DA07E8 /* Assets.xcassets */,
@@ -234,18 +245,6 @@
 				F1E6140B255C1EE500DA07E8 /* LocalService.swift */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		F1E61412255C656F00DA07E8 /* LoaderView */ = {
-			isa = PBXGroup;
-			children = (
-				F1E61413255C656F00DA07E8 /* SKActivityIndicatorGenerator.swift */,
-				F1E61414255C656F00DA07E8 /* SKPreloadingView.swift */,
-				F1E61415255C656F00DA07E8 /* SKRefreshControl.swift */,
-				F1E61416255C656F00DA07E8 /* SKActivityIndicator.swift */,
-			);
-			name = LoaderView;
-			path = "../../../wanees.ios/wanees/wanees/custom views/LoaderView";
 			sourceTree = "<group>";
 		};
 		F1E6141D255D3DD300DA07E8 /* PostImageCell */ = {
@@ -396,8 +395,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1E613FB255ADC9D00DA07E8 /* HomeTableViewExtension.swift in Sources */,
+				F110CDCD25619C2C00838D45 /* SKActivityIndicator.swift in Sources */,
 				F1E6142B255E9EF800DA07E8 /* ExtensionTableView.swift in Sources */,
-				F1E6141A255C656F00DA07E8 /* SKActivityIndicator.swift in Sources */,
 				F1E61421255D3F1D00DA07E8 /* PostImageCell.swift in Sources */,
 				F1E6142E255EA00400DA07E8 /* PostType.swift in Sources */,
 				F1E613F9255AD50400DA07E8 /* HomeViewModel.swift in Sources */,
@@ -405,11 +404,12 @@
 				F1E613D2255AAC7700DA07E8 /* HomeViewController.swift in Sources */,
 				F1E613F0255AB08C00DA07E8 /* LocalizableUtility.swift in Sources */,
 				F1E613CE255AAC7700DA07E8 /* AppDelegate.swift in Sources */,
-				F1E61417255C656F00DA07E8 /* SKActivityIndicatorGenerator.swift in Sources */,
 				F1FFD890256060350097A100 /* Constant.swift in Sources */,
 				F1E6140C255C1EE600DA07E8 /* LocalService.swift in Sources */,
-				F1E61419255C656F00DA07E8 /* SKRefreshControl.swift in Sources */,
+				F110CDCC25619C2C00838D45 /* SKRefreshControl.swift in Sources */,
+				F110CDCB25619C2C00838D45 /* SKPreloadingView.swift in Sources */,
 				F1E613FE255AE8A600DA07E8 /* ExtensionView.swift in Sources */,
+				F110CDCA25619C2C00838D45 /* SKActivityIndicatorGenerator.swift in Sources */,
 				F1E613F2255AC86A00DA07E8 /* PostsService.swift in Sources */,
 				F1E6141C255D3DAA00DA07E8 /* BasePostCell.swift in Sources */,
 				F1E61406255B0E7700DA07E8 /* ColorPalette.swift in Sources */,
@@ -417,7 +417,6 @@
 				F1E61438255EA1D300DA07E8 /* PostVideoCell.swift in Sources */,
 				F1E613F4255AC93000DA07E8 /* Helper.swift in Sources */,
 				F1E61433255EA17200DA07E8 /* PostTextCell.swift in Sources */,
-				F1E61418255C656F00DA07E8 /* SKPreloadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
