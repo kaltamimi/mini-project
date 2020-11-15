@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  mini project
+
+  Created by Kawthar Khalid al-Tamimi on 11/10/20.
+  Copyright © 2020 Kawthar. All rights reserved.
+*/
+
+"header" = "Header";
+
+"writeAComment" = "اكتب تعليق";
+"likes" = "إعجاب";
+"comments" = "تعليق";
+"shares" = "مشاركة";
+"sharedThispost " = "شارك (user name) هذا المنشور";
+"somethingWrong" = "حدث خطأ ما يرجى المحاولة في ما بعد";
